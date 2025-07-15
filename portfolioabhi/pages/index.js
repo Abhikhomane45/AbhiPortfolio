@@ -1,7 +1,23 @@
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <main className="bg-gray-900 text-white font-sans">
+      <Header />
+      <Hero />
+      <About />
+      <Education />
+      <Experience />
+      <Projects />
+      <Contact />
+      <Footer />
+    </main>
+  );
 }
